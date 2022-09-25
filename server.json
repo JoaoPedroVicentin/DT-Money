@@ -2,7 +2,7 @@
   "transactions": [
     {
       "id": 1,
-      "description": "Desenvolvimetno de site",
+      "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
       "price": 14000,
@@ -39,6 +39,14 @@
       "price": 70,
       "createdAt": "2022-09-24T16:10:02.906Z",
       "id": 5
+    },
+    {
+      "description": "Gasolina",
+      "type": "outcome",
+      "category": "Combustível",
+      "price": 100,
+      "createdAt": "2022-09-25T17:21:22.897Z",
+      "id": 6
     }
   ]
 }

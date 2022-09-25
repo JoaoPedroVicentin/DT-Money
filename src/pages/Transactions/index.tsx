@@ -5,6 +5,7 @@ import { TransactionsContext } from "../../contexts/TransactionsContexts"
 import { dateFormatter, priceFormatter } from "../../utils/formater"
 import { SearchForm } from "./components/SearchForm"
 import { PriceHighLight, TransactionsContainer, TransactionsTable } from "./styles"
+import { useContextSelector } from "use-context-selector";
 
 interface Transaction {
     id: number,
@@ -17,7 +18,10 @@ interface Transaction {
 
 export function Transactions() {
 
-    const { transactions } = useContext(TransactionsContext)
+    const transactions = useContextSelector(TransactionsContext, (context) => {
+        return context.transactions
+    })
+
 
     return (
         <div>
