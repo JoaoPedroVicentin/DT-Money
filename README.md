@@ -4,7 +4,7 @@
 <br>
 
  <h1 align="center">
-    <img alt="Readme" title="Readme" src="/src/assets/imgGit1.png" />
+    <img alt="Readme" title="Readme" src="./src/assets/imgGit1.png" />
  </h1>
 
  ##
