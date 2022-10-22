@@ -1,4 +1,3 @@
-import { useContext, useEffect, useState } from "react"
 import { Header } from "../../components/Header"
 import { Summary } from "../../components/Summary"
 import { TransactionsContext } from "../../contexts/TransactionsContexts"
