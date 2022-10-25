@@ -26,7 +26,7 @@
 ```bash
 
 #Clone este repositório
-$ git clone https://github.com/JoaoPedroVicentin/DT-Money.git
+$ git clone https://github.com/JoaoPedroVicentin/dt-money.git
 
 #Acesse a pasta do projeto
 $ cd DT-Money
